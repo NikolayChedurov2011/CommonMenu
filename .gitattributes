@@ -1,0 +1,24 @@
+# Unreal Engine file types.
+*.uasset filter=lfs diff=lfs merge=binary -text lockable
+*.umap filter=lfs diff=lfs merge=binary -text lockable
+# Libraries.
+*.exe filter=lfs diff=lfs merge=binary -text
+*.dll filter=lfs diff=lfs merge=binary -text
+*.lib filter=lfs diff=lfs merge=binary -text
+*.a filter=lfs diff=lfs merge=binary -text
+*.so filter=lfs diff=lfs merge=binary -text
+*.dylib filter=lfs diff=lfs merge=binary -text
+# Raw Content file types.
+*.fbx filter=lfs diff=lfs merge=binary -text
+*.3ds filter=lfs diff=lfs merge=binary -text
+*.psd filter=lfs diff=lfs merge=binary -text
+*.png filter=lfs diff=lfs merge=binary -text
+*.mp3 filter=lfs diff=lfs merge=binary -text
+*.mp4 filter=lfs diff=lfs merge=binary -text
+*.wav filter=lfs diff=lfs merge=binary -text
+*.xcf filter=lfs diff=lfs merge=binary -text
+*.jpg filter=lfs diff=lfs merge=binary -text
+*.zip filter=lfs diff=lfs merge=binary -text
+*.patch filter=lfs diff=lfs merge=binary -text
+# Anything in `/RawContent` dir.
+/RawContent/**/* filter=lfs diff=lfs merge=binary -text
