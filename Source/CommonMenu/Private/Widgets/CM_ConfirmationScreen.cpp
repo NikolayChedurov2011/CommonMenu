@@ -4,7 +4,6 @@
 #include "Widgets/CM_ConfirmationScreen.h"
 
 #include "CommonTextBlock.h"
-#include "ICommonInputModule.h"
 #include "Components/DynamicEntryBox.h"
 #include "Widgets/Components/CM_CommonButton_Base.h"
 

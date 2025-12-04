@@ -4,8 +4,6 @@
 #include "CommonActivatableWidget.h"
 #include "CM_ActivableWidget_Base.generated.h"
 
-class ACM_PlayerController_Base;
-
 UCLASS()
 class COMMONMENU_API UCM_ActivableWidget_Base : public UCommonActivatableWidget
 {
@@ -13,8 +11,8 @@ class COMMONMENU_API UCM_ActivableWidget_Base : public UCommonActivatableWidget
 
 protected:
 	UFUNCTION(BlueprintPure)
-	ACM_PlayerController_Base* GetOwningCommonMenuPlayerController();
+	APlayerController* GetOwningCommonMenuPlayerController();
 	
 private:
-	TSoftObjectPtr<ACM_PlayerController_Base> CachedOwningPlayerController{};
+	TSoftObjectPtr<APlayerController> CachedOwningPlayerController{};
 };

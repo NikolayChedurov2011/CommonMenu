@@ -17,6 +17,9 @@ namespace CMGameplayTags
 	UE_DEFINE_GAMEPLAY_TAG(UI_Widget_ConfirmScreen,							"UI.Widget.ConfirmScreen")
 	UE_DEFINE_GAMEPLAY_TAG(UI_Widget_KeyRemapScreen,						"UI.Widget.KeyRemapScreen")
 	
+	UE_DEFINE_GAMEPLAY_TAG(UI_Widget_InGameLayoutScreen,					"UI.Widget.InGameLayoutScreen")
+	UE_DEFINE_GAMEPLAY_TAG(UI_Widget_InGameMenuScreen,						"UI.Widget.InGameMenuScreen")
+	
 	/**** Image Tags ****/
 	UE_DEFINE_GAMEPLAY_TAG(UI_Image_TestImage,								"UI.Image.TestImage")
 }
